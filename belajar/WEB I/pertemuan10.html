@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Mahasiswa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            width: 200px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .status-lulus {
+            color: green;
+            font-weight: bold;
+        }
+        .status-tidak {
+            color: red;
+            font-weight: bold;
+        }
+        button {
+            margin-top: 30px;
+            padding: 8px 15px;
+            border: none;
+            background-color: #444;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Data Mahasiswa</h1>
+
+    <div class="container">
+        <div class="card">
+            <h3>Dede Sandi</h3>
+            <p>Jurusan: Teknik Informatika</p>
+            <p>Nilai: 92</p>
+            <p class="status-lulus">Status: Lulus</p>
+        </div>
+
+        <div class="card">
+            <h3>Desan</h3>
+            <p>Jurusan: Sistem Informasi</p>
+            <p>Nilai: 74</p>
+            <p class="status-lulus">Status: Lulus</p>
+        </div>
+
+        <div class="card">
+            <h3>Putri Suris</h3>
+            <p>Jurusan: PAI</p>
+            <p>Nilai: 50</p>
+            <p class="status-tidak">Status: Tidak Lulus</p>
+        </div>
+
+        <div class="card">
+            <h3>Pohan</h3>
+            <p>Jurusan: Hukum</p>
+            <p>Nilai: 65</p>
+            <p class="status-lulus">Status: Lulus</p>
+        </div>
+    </div>
+
+    <button>Tampilkan Data</button>
+
+</body>
+</html>
